@@ -10,6 +10,7 @@ body {
 .container {
   max-width: fit-content;
   margin: 10% auto;
+  border: 2px solid black;
 }
 
 .top-container {
