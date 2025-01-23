@@ -1,0 +1,15 @@
+
+body{
+    
+}
+
+.links h6{
+  margin: 20px 0;
+  font-size: 1rem;
+}
+
+.container{
+  background-color: palevioletred;
+  padding: 30px;
+  margin: 50px auto;
+}
