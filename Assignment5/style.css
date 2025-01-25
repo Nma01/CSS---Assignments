@@ -44,18 +44,18 @@ nav ul li .nav-link:hover {
   margin: 20px 50px;
   /* padding: 30px; */
 }
-.checkout{
+.checkout {
   padding: 30px;
 }
 
-.checkout .basic-info{
+.checkout .basic-info {
   margin: 80px 0;
 }
-.checkout .pmt-info{
+.checkout .pmt-info {
   margin: 80px 0;
 }
 .checkout h3 {
-  padding-top: 20px  ;
+  padding-top: 20px;
 }
 .checkout h5 {
   padding: 7px 0;
@@ -78,24 +78,23 @@ form > div {
   display: flex;
   flex-direction: column;
   margin: 15px 0;
-  
 }
 
-label{
+label {
   padding: 10px 0;
 }
 
-input{
-  padding: 8px ;
+input {
+  padding: 8px;
   border-radius: 5px;
   border: 0.1px solid rgb(175, 172, 172);
 }
 
-.sm-wdth{
+.sm-wdth {
   width: 84px;
 }
 
-.bttn{
+.bttn {
   width: 100%;
   padding: 10px;
   border-radius: 5px;
@@ -106,8 +105,8 @@ input{
   margin-bottom: 20px;
 }
 
-.xsm-circle{
-   margin-right: 8px;
+.xsm-circle {
+  margin-right: 8px;
 
   display: inline-block;
   width: 16px;
@@ -120,18 +119,18 @@ input{
   color: rgb(37, 129, 204);
 }
 
-.bold-txt{
+.bold-txt {
   font-weight: 600;
 }
 
-.grey-txt{
+.grey-txt {
   color: rgb(124, 122, 122);
 }
-.need-help{
+.need-help {
   text-align: center;
 }
 
-.grey-bg{
+.grey-bg {
   background-color: rgb(169, 168, 168);
   display: inline;
   color: white;
@@ -139,57 +138,53 @@ input{
   font-size: 0.5rem;
   border-radius: 3px;
   font-weight: 700;
-  
 }
 
-.grey-bg .bold-txt{
+.grey-bg .bold-txt {
   font-size: 0.8rem;
-  
 }
-
 
 /* freelancer */
 
-.freelancer{
+.freelancer {
   background-color: rgb(49, 120, 212);
   color: white;
   margin: 40px 0;
   padding: 30px;
 }
 
-.freelancer .xsm-circle{
+.freelancer .xsm-circle {
   color: white;
   border-color: rgb(174, 217, 239);
 }
 
-.freelancer a{
+.freelancer a {
   color: white;
   text-decoration-color: rgb(47, 169, 235);
   text-decoration-thickness: 2.3px;
 }
 
-.cstm-hr{
+.cstm-hr {
   background-color: rgb(47, 169, 235);
   height: 2.5px;
-  margin: 30px auto; 
+  margin: 30px auto;
 }
 
-.t-align{
+.t-align {
   text-wrap: pretty;
 }
 
-.kirk-beard{
+.kirk-beard {
   display: grid;
   grid-template-columns: 30px 100px;
   gap: 5px;
-
 }
 
-.kirk-beard img{
+.kirk-beard img {
   width: 25px;
 }
 
-footer{
+footer {
   text-align: center;
   color: rgb(124, 122, 122);
   font-size: 12px;
