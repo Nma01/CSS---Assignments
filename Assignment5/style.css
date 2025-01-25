@@ -42,6 +42,9 @@ nav ul li .nav-link:hover {
 .hero {
   background-color: rgb(119, 45, 119);
   margin: 20px 50px;
+  /* padding: 30px; */
+}
+.checkout{
   padding: 30px;
 }
 
@@ -109,9 +112,9 @@ input{
   display: inline-block;
   width: 16px;
   height: 16px;
-  line-height: 17px;
+  line-height: 16px;
   text-align: center;
-  border: 1px solid rgb(37, 129, 204);
+  border: 1.5px solid rgb(37, 129, 204);
   border-radius: 50%;
   font-size: 10px;
   color: rgb(37, 129, 204);
@@ -151,4 +154,48 @@ input{
   background-color: rgb(49, 120, 212);
   color: white;
   margin: 40px 0;
+  padding: 30px;
+}
+
+.freelancer .xsm-circle{
+  color: white;
+  border-color: rgb(174, 217, 239);
+}
+
+.freelancer a{
+  color: white;
+  text-decoration-color: rgb(47, 169, 235);
+  text-decoration-thickness: 2.3px;
+}
+
+.cstm-hr{
+  background-color: rgb(47, 169, 235);
+  height: 2.5px;
+  margin: 30px auto; 
+}
+
+.t-align{
+  text-wrap: pretty;
+}
+
+.kirk-beard{
+  display: grid;
+  grid-template-columns: 30px 100px;
+  gap: 5px;
+
+}
+
+.kirk-beard img{
+  width: 25px;
+}
+
+footer{
+  text-align: center;
+  color: rgb(124, 122, 122);
+  font-size: 12px;
+}
+
+footer a {
+  color: rgb(49, 120, 212);
+  text-decoration: none;
 }
