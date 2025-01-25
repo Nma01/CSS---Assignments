@@ -1,15 +1,154 @@
-
-body{
-    
+:root {
+  --green: rgb(9, 134, 13);
 }
 
-.links h6{
+body {
+  font-family: 'Poppins';
+}
+
+.links h6 {
   margin: 20px 0;
   font-size: 1rem;
 }
 
-.container{
-  background-color: palevioletred;
+.containerr {
+  /* background-color: palevioletred; */
   padding: 30px;
   margin: 50px auto;
+}
+
+/* nav */
+nav ul {
+  /* display: flex; */
+  text-align: center;
+  list-style: none;
+  margin: 20px 0;
+  padding: 0;
+}
+
+nav ul li .nav-link {
+  color: black;
+}
+
+nav ul li .nav-link:hover {
+  color: var(--green);
+}
+
+.navbar-toggler-icon {
+  background-color: rgb(166, 166, 175);
+}
+
+/* hero */
+.hero {
+  background-color: rgb(119, 45, 119);
+  margin: 20px 50px;
+  padding: 30px;
+}
+
+.checkout .basic-info{
+  margin: 80px 0;
+}
+.checkout .pmt-info{
+  margin: 80px 0;
+}
+.checkout h3 {
+  padding-top: 20px  ;
+}
+.checkout h5 {
+  padding: 7px 0;
+}
+.sm-circle {
+  margin-right: 8px;
+
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+  border: 1px solid rgb(37, 129, 204);
+  border-radius: 50%;
+  font-size: 14px;
+  color: rgb(37, 129, 204);
+}
+
+form > div {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0;
+  
+}
+
+label{
+  padding: 10px 0;
+}
+
+input{
+  padding: 8px ;
+  border-radius: 5px;
+  border: 0.1px solid rgb(175, 172, 172);
+}
+
+.sm-wdth{
+  width: 84px;
+}
+
+.bttn{
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: 700;
+  background-color: var(--green);
+  color: white;
+  border: none;
+  margin-bottom: 20px;
+}
+
+.xsm-circle{
+   margin-right: 8px;
+
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  line-height: 17px;
+  text-align: center;
+  border: 1px solid rgb(37, 129, 204);
+  border-radius: 50%;
+  font-size: 10px;
+  color: rgb(37, 129, 204);
+}
+
+.bold-txt{
+  font-weight: 600;
+}
+
+.grey-txt{
+  color: rgb(124, 122, 122);
+}
+.need-help{
+  text-align: center;
+}
+
+.grey-bg{
+  background-color: rgb(169, 168, 168);
+  display: inline;
+  color: white;
+  padding: 4px;
+  font-size: 0.5rem;
+  border-radius: 3px;
+  font-weight: 700;
+  
+}
+
+.grey-bg .bold-txt{
+  font-size: 0.8rem;
+  
+}
+
+
+/* freelancer */
+
+.freelancer{
+  background-color: rgb(49, 120, 212);
+  color: white;
+  margin: 40px 0;
 }
