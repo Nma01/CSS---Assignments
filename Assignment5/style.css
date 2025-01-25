@@ -2,8 +2,8 @@
   --green: rgb(9, 134, 13);
 }
 
-body {
-  font-family: 'Poppins';
+* {
+  font-family: "Lato", serif;
 }
 
 .links h6 {
@@ -40,7 +40,7 @@ nav ul li .nav-link:hover {
 
 /* hero */
 .hero {
-  background-color: rgb(119, 45, 119);
+  /* background-color: rgb(119, 45, 119); */
   margin: 20px 50px;
   /* padding: 30px; */
 }
@@ -153,6 +153,22 @@ input {
   padding: 30px;
 }
 
+.big-99{
+  font-size: 3.4rem;
+  font-weight: 300;
+}
+
+.sup-script{
+vertical-align: 1.5rem;
+font-size: 1.2rem;
+font-weight: 500;
+}
+
+.sub-script{
+vertical-align: sub;
+
+}
+
 .freelancer .xsm-circle {
   color: white;
   border-color: rgb(174, 217, 239);
@@ -170,8 +186,10 @@ input {
   margin: 30px auto;
 }
 
-.t-align {
+.ital {
   text-wrap: pretty;
+  font-style: italic;
+   /* font-weight: 400;  */
 }
 
 .kirk-beard {
