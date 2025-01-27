@@ -79,28 +79,39 @@
           <h3>Checkout</h3>
           <form action="" class="basic-info">
             <h5><span class="sm-circle">1</span>Your Basic Information</h5>
-            <div>
-              <label for="first-name">First Name</label>
-              <input type="text" placeholder="Jane" />
-            </div>
-            <div>
-              <label for="last-name">Last Name</label>
-              <input type="text" placeholder="Doe" />
-            </div>
-            <div>
-              <label for="email">Email</label>
-              <input type="email" placeholder="janedoe@example.com" />
+            <div class="form-field">
+              <div>
+                <label for="first-name">First Name</label>
+                <input type="text" placeholder="Jane" />
+              </div>
+              <div>
+                <label for="last-name">Last Name</label>
+                <input type="text" placeholder="Doe" />
+              </div>
+              <div>
+                <label for="email">Email</label>
+                <input type="email" placeholder="janedoe@example.com" />
+              </div>
             </div>
           </form>
 
           <form action="" class="pmt-info">
             <h5><span class="sm-circle">2</span>Your Payment Information</h5>
-            <div>
-              <label for="cc-num">Credit Card</label>
-              <input type="text" placeholder="Card Number" />
+            <div class="form-field f2">
+              <div>
+                <label for="cc-num">Credit Card</label>
+                <input type="text" placeholder="Card Number" />
+              </div>
+
+              <div>
+                <label class="transparent" for="">1</label>
+                <input class="sm-wdth" type="number" placeholder="MM/YY" />
+              </div>
+              <div>
+                <label class="transparent" for="">1</label>
+                <input class="sm-wdth" type="number" placeholder="CVC" />
+              </div>
             </div>
-            <input class="sm-wdth" type="number" placeholder="MM/YY" />
-            <input class="sm-wdth" type="number" placeholder="CVC" />
           </form>
 
           <button class="bttn">Buy WP Pusher</button>
@@ -117,12 +128,18 @@
         </div>
         <div class="freelancer">
           <h3>Freelancer</h3>
-          <p><span class="sup-script">$</span><span class="big-99"> 99</span><span class="sub-script">/ year</span></p>
+          <p>
+            <span class="sup-script">$</span><span class="big-99"> 99</span
+            ><span class="sub-script">/ year</span>
+          </p>
           <p class="ital">Automatically renews after 1 year</p>
           <div>
-            <p><span class="xsm-circle">✓</span> Use on 5 client sites</p>
-            <p><span class="xsm-circle">✓</span> Private repositories</p>
-            <p><span class="xsm-circle">✓</span> Email support</p>
+            <div class="with-circ">
+              <p><span class="xsm-circle">✓</span> Use on 5 client sites</p>
+              <p><span class="xsm-circle">✓</span> Private repositories</p>
+              <p><span class="xsm-circle">✓</span> Email support</p>
+            </div>
+
             <p>Need 20 client sites?</p>
             <p><a href="#">Switch to the Agency plan.</a></p>
             <hr class="cstm-hr" />
