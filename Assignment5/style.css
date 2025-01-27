@@ -236,6 +236,7 @@ footer a {
   }
   nav ul li .acct {
   border: 1.5px solid black;
+  border-radius: 5px;
 }
   .form-field {
     display: grid;
@@ -260,6 +261,7 @@ footer a {
 @media (min-width: 901px) {
   nav ul li .acct {
   border: 1.5px solid black;
+  border-radius: 5px;
 }
   .hero {
     display: grid;
