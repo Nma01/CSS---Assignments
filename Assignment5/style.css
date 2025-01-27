@@ -99,6 +99,7 @@ input {
   padding: 8px;
   border-radius: 5px;
   border: 0.1px solid rgb(197, 195, 195);
+  /* margin: 10px; */
 }
 
 .sm-wdth {
@@ -156,7 +157,9 @@ input {
 }
 
 /* freelancer */
-
+.f2{
+  gap: 10px;
+}
 .freelancer {
   background-color: rgb(49, 120, 212);
   color: white;
