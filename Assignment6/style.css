@@ -17,15 +17,12 @@
 }
 
 .container {
-  background-color: rgb(197, 193, 193);
   padding: 50px 70px;
   max-width: 1440px;
   margin: 0 auto;
 }
 /* nav section */
 nav {
-  /* display: grid;
-    grid-template-columns: 1fr 2fr 1fr; */
   display: flex;
   justify-content: space-evenly;
 }
